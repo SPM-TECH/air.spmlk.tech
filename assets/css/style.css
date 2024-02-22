@@ -16550,12 +16550,12 @@ body.out .mouse-pointer {
   padding: 11px 32px;
   font-family: 'Poppins', sans-serif;
   border: 2px solid #3799D4;
-  color: #3799D4 !important;
+  color: #3799D4!important;
 }
 
 .news-eight .theme-btn:hover {
   border-color: #3799D4;
-  color: #3799D4 !important;
+  color: #fff !important;
 }
 
 .news-eight .theme-btn:before{
@@ -16567,7 +16567,7 @@ body.out .mouse-pointer {
   content: "";
   bottom: 110%;
   left: 50%;
-  background-color: #232327;
+  background-color: #3799D4;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   border-radius: 50%;
