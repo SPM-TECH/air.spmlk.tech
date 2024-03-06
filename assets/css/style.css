@@ -16813,26 +16813,34 @@ body.out .mouse-pointer {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   background: #fff;
+  border: 2px solid #3799D4;
   padding-top: 17px;
   padding-bottom: 17px;
 }
 
-.banner-five .theme-btn span:before,
-.banner-five .theme-btn span:after,
-.about-13 .theme-btn span:before,
-.about-13 .theme-btn span:after{
-  color: #fff;
+
+.banner-five .theme-btn:hover {
+  color: #fff !important;
 }
 
-.banner-five .theme-btn:before,
-.about-13 .theme-btn:before{
-  background: #fff;
+.banner-five .theme-btn:before{
+  webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  content: "";
+  bottom: 110%;
+  left: 50%;
+  background-color: #3799D4;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  z-index: -1;
 }
 
-.banner-five .theme-btn:after,
-.about-13 .theme-btn:after{
-  border-right: 2px solid #fff;
-  border-top: 2px solid #fff;
+.banner-five .theme-btn:hover:before{
+  bottom: -40%;
 }
 
 .pricing-one.home-13 .theme-btn-six{
